@@ -1,0 +1,15 @@
+.create-post{
+    display: flex;
+    background-color: whitesmoke;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.create-post-container{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
