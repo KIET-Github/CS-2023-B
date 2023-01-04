@@ -1,0 +1,196 @@
+.tasks {
+  margin-top: var(--head-height);
+  width: 100%;
+  min-height: calc(100vh - var(--head-height));
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+}
+.tasks-head {
+  width: 100%;
+  height: 7.5rem;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  font-weight: 100;
+  padding: 0.35rem 4rem;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (max-width: 672px) {
+  .tasks-head {
+    padding: 0.5rem 1rem;
+  }
+}
+.tasks-body {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+.tasks-body-section {
+  width: 100%;
+  margin: 0.5rem auto;
+}
+.tasks-body-section__head {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding: 0.5rem 4rem;
+}
+@media (max-width: 672px) {
+  .tasks-body-section__head {
+    padding: 0.5rem 1rem;
+  }
+}
+.tasks-body-section__body {
+  width: 85%;
+  margin: 0 auto;
+}
+@media (max-width: 672px) {
+  .tasks-body-section__body {
+    width: 95%;
+  }
+}
+
+.task {
+  width: 15rem;
+  min-height: 11.5rem;
+  border-radius: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  margin: 1rem;
+}
+@media (max-width: 672px) {
+  .task {
+    width: 12.5rem;
+  }
+}
+.task-title {
+  width: 70%;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+.task-description {
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  margin: 0.5rem 0;
+}
+.task-controls {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 0.5rem;
+  padding: 0.15rem 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 0;
+}
+.task-control {
+  opacity: 0;
+  margin: 0 0.5rem;
+}
+.task-control-done {
+  position: absolute;
+  top: 1rem;
+  right: 0.5rem;
+}
+@media (max-width: 672px) {
+  .task-control-done {
+    opacity: 1;
+  }
+}
+.task:hover {
+  border-radius: 1rem;
+}
+.task:hover .task-controls {
+  opacity: 1;
+}
+.task:hover .task-control {
+  opacity: 1;
+}
+
+.add-task-form {
+  width: 90%;
+  margin: 2rem auto;
+}
+.add-task-form textarea {
+  height: 20vh;
+}
+.add-task-form .form-group {
+  width: 100%;
+  margin: 1rem auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-task-form .form-group [name=title] {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.add-task-form .form-group [name=content] {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.add-task-form-group {
+  position: relative;
+  margin: 0 1rem;
+}
+.add-task-form-remind {
+  position: relative;
+}
+.add-task-form-remind label {
+  width: fit-content;
+  height: fit-content;
+  transform: none;
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-task-form-remind label button {
+  margin-right: 0.5rem;
+}
+.add-task-form-remind label span {
+  font-size: 1.25rem;
+}
+.add-task-cover {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+}
+.add-task-color-box {
+  position: absolute;
+  bottom: 3rem;
+  left: 1rem;
+  width: 15rem;
+  background-color: var(--bgcolor);
+  box-shadow: var(--shadow-elevation-2dp);
+  border-radius: 8px;
+  z-index: 16;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.add-task-color-box::-webkit-scrollbar {
+  width: 1px;
+  background-color: transparent;
+}
+.add-task-color-box::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.add-task-color-box::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 500px;
+}
+.add-task-color-box::-webkit-scrollbar-thumb:hover {
+  background-color: transparent;
+}
+.add-task-color-box::-webkit-scrollbar-thumb:hover {
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=tasks.css.map */

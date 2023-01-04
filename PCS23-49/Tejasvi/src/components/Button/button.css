@@ -1,0 +1,241 @@
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  user-select: none;
+  font: inherit;
+  color: inherit;
+}
+
+.btn {
+  width: fit-content;
+  height: fit-content;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 0.65rem 1.35rem;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 500px;
+  white-space: nowrap;
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-shadow: var(--shadow-elevation-2dp);
+}
+.btn-sm {
+  padding: 0.5rem 1.1rem;
+  font-size: 0.875rem;
+}
+.btn-lg {
+  padding: 0.875rem 1.5rem;
+  font-size: 1.15rem;
+}
+.btn:hover {
+  box-shadow: var(--shadow-elevation-4dp);
+}
+.btn:active {
+  box-shadow: var(--shadow-elevation-2dp);
+}
+.btn .material-symbols-outlined {
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+}
+.btn-blue {
+  background-color: var(--blue);
+}
+.btn-blue.btn-outline {
+  outline: 2px solid var(--blue);
+  color: var(--blue);
+}
+.btn-red {
+  background-color: var(--red);
+}
+.btn-red.btn-outline {
+  outline: 2px solid var(--red);
+  color: var(--red);
+}
+.btn-yellow {
+  background-color: var(--yellow);
+}
+.btn-yellow.btn-outline {
+  outline: 2px solid var(--yellow);
+  color: var(--yellow);
+}
+.btn-green {
+  background-color: var(--green);
+}
+.btn-green.btn-outline {
+  outline: 2px solid var(--green);
+  color: var(--green);
+}
+.btn-white {
+  background-color: var(--white);
+}
+.btn-white.btn-outline {
+  outline: 2px solid var(--white);
+  color: var(--white);
+}
+.btn-black {
+  background-color: var(--black);
+}
+.btn-black.btn-outline {
+  outline: 2px solid var(--black);
+  color: var(--black);
+}
+.btn-purple {
+  background-color: var(--purple);
+}
+.btn-purple.btn-outline {
+  outline: 2px solid var(--purple);
+  color: var(--purple);
+}
+.btn-indigo {
+  background-color: var(--indigo);
+}
+.btn-indigo.btn-outline {
+  outline: 2px solid var(--indigo);
+  color: var(--indigo);
+}
+.btn-orange {
+  background-color: var(--orange);
+}
+.btn-orange.btn-outline {
+  outline: 2px solid var(--orange);
+  color: var(--orange);
+}
+.btn-grey {
+  background-color: var(--grey);
+}
+.btn-grey.btn-outline {
+  outline: 2px solid var(--grey);
+  color: var(--grey);
+}
+.btn-brown {
+  background-color: var(--brown);
+}
+.btn-brown.btn-outline {
+  outline: 2px solid var(--brown);
+  color: var(--brown);
+}
+.btn-pink {
+  background-color: var(--pink);
+}
+.btn-pink.btn-outline {
+  outline: 2px solid var(--pink);
+  color: var(--pink);
+}
+.btn-outline {
+  background-color: transparent;
+}
+.btn-white {
+  color: var(--black);
+}
+.btn-white.btn-outline {
+  outline: 2px solid var(--black);
+  color: var(--black);
+}
+
+.icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 1rem;
+  border-radius: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--tcolor);
+}
+.icon .material-symbols-outlined {
+  font-size: 1.5rem;
+}
+.icon:hover {
+  background-color: var(--back-shadow-light);
+}
+
+.link-button {
+  width: fit-content;
+  height: fit-content;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.65rem 1.15rem;
+  border-radius: 32px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.link-button:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+  border-radius: 12px;
+}
+.link-button .material-symbols-outlined {
+  font-size: 1.25rem;
+  margin: 0 0.25rem;
+}
+.link-button:hover .material-symbols-outlined {
+  transform: translate(2px, -2px);
+}
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.icon-btn span {
+  z-index: 5;
+  font-size: 1.25rem;
+}
+.icon-btn svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.icon-btn svg path {
+  width: 100%;
+  height: 100%;
+}
+.icon-btn:hover svg {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.fab {
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  margin: 1.5rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--shadow-elevation-2dp);
+}
+.fab .material-symbols-outlined {
+  font-size: 1.5rem;
+}
+.fab:hover {
+  border-radius: 16px;
+}
+.fab-lg {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.fab-sm {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 20px;
+}
+.fab-sm:hover {
+  border-radius: 12px;
+}
+
+/*# sourceMappingURL=button.css.map */
