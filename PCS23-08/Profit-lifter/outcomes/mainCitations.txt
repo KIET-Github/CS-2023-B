@@ -1,0 +1,39 @@
+[1]	Liaqat Ali, Khaled Khelil, Zain U. Hussain, “Machine learning based Computer-Aided Diagnosis of liver tumors” IEEE Xplore, 16-November-2017, pp. 139-145.
+[2]	Dalal Bardou, Kun Zhang, and Sayed Mohammad Ahmad, “Classification of Breast Cancer Based on Histology Images Using Convolutional Neural Networks” IEEE Access, 01-May-2018, pp. 24680-24693.
+[3]	Gillian Pearce, Julian Wong, “Artificial Neural Network and Mobile Applications in Medical Diagnosis” International Conference on Modelling and Simulation, IEEE Computer Society, March - 2015, pp. 61-64.
+[4]	Alex Shenfield, Shahin Rostami, “Multi-objective evolution of artificial neural networks in multi-class medical diagnosis problems with class imbalance” IEEE Xplore, October-2017, pp. 01-08
+[5]	Gunawardena, Rajapakse, Kodikara, “Applying Convolutional Neural Networks for Pre-detection of Alzheimer’s Disease from Structural MRI data” IEEE Xplore, December-2017, pp. 01-07.
+[6]	Vijay Huddar, Vaibhav Rajan, “Predicting Complications in Critical Care using Heterogeneous Clinical Data” IEEE Access - 2016, pp. 01-13.
+[7]	Valkonen, Kartasalo “Dual structured convolutional neural network with feature augmentation for quantitative characterization of tissue histology” IEEE Computer Society, October-2017, pp. 27-35.
+[8]	Shurouq Hijazi and Alex Page, “Machine Learning in Cardiac Health Monitoring and Decision Support” IEEE Computer Society, November - 2016, pp. 38-48
+[9] Puwanenthiren Premkanth, - Market
+Classification and Its Impact on Customer
+Satisfaction and Special Reference to the
+Commercial Bank of Ceylon PLC.‖ Global
+Journal of Management and Business Publisher
+Research: Global Magazenals Inc. (USA). 2012.
+Print ISSN: 0975-5853. Volume 12 Issue 1
+
+[10]  Blanchard, Tommy. Bhatnagar, Pranshu. Behera,
+Trash. (2019). Marketing Analytics Scientific
+Data: Achieve your marketing objectives with
+Python's data analytics capabilities. S.l: Packt
+printing is limited
+
+
+[11]  Sulekha Goyat. "The basis of market
+segmentation: a critical review of the literature.
+European Journal of Business and Management
+www.iiste.org. 2011. ISSN 2222-1905 (Paper)
+ISSN 2222-2839 (Online). Vol 3, No.9, 2011
+
+[12]  [2] Kilimci ZH 2019 Hindawi 2019 1
+
+[13]  vlyshenko, B. M. (2019). Machinelearning models for sales time series 
+forecasting. Data, 4(1), 15.
+[14] Kaya Uyanık, Gülden & Güler, Neşe. (2013). A Study on Multiple Linear Regression Analysis. Procedia - Social and Behavioral Sciences. 106. 234–240. 10.1016/j.sbspro.2013.12.027.
+[15] Ali, Jehad & Khan, Rehanullah & Ahmad, Nasir & Maqsood, Imran. (2012). Random Forests and Decision Trees. International Journal of Computer Science Issues(IJCSI). 9.
+[16] Zhang, Lingyu & Bian, Wenjie & Qu, Wenyi & Tuo, Liheng & Wang, Yunhai. (2021). Time series forecast of sales volume based on XGBoost. Journal of Physics: Conference Series. 1873. 012067. 10.1088/1742-6596/1873/1/012067.
+[17]  Yuzhen Wang et al 2019 J. Phys.: Conf. Ser. 1314 012215
+DOI 10.1088/1742-6596/1314/1/012215
+[18] AIP Conference Proceedings 1931, 030017 (2018); https://doi.org/10.1063/1.5024076
