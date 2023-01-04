@@ -1,0 +1,99 @@
+.single-post-container{
+    /* width: 100%; */
+    /* background-color: greenyellow; */
+    margin: 10px;
+    padding: 10px;    
+    height: 600px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.single-post-container .first{
+    display: flex;
+    flex:10%
+}
+
+.single-post-container .first .profile-pic{
+    border-radius: 50%;
+    background-size: cover;
+    cursor: pointer;
+    /* flex:20% */
+}
+
+.first-username{
+    /* flex: 10%; */
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.first-time{
+    flex: 33%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.single-post-container .first .profile-pic img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.single-post-container .second{
+    /* display: flex; */
+    flex:15%;
+    padding-bottom: 10px;
+}
+.single-post-container .third{
+    /* display: flex; */
+    flex:55%
+
+}
+.single-post-container .third div{
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+}
+.single-post-container .third .post-pic{
+    /* display: flex; */
+    /* flex:70% */
+    /* width: 50px;
+    height: 50px; */
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+.single-post-container .fourth{
+    display: flex;
+    flex:20%;
+    margin-top: 10px;
+
+}
+
+.like-container{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+}
+.like-container .button{
+    cursor: pointer;
+}
+
+.like-container span{
+    padding-left: 10px;
+}
+
+.comment-container{
+    display: flex;
+    align-items: center;
+}

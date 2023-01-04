@@ -1,0 +1,12 @@
+.search-box-container{
+    position: fixed;
+}
+
+.search-box{
+    background-color: white;
+    width: 510px;
+    margin-left: 80px;
+    /* background-color: red; */
+    /* height: 200px; */
+    border-radius: 10px;
+}
