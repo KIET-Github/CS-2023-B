@@ -1,0 +1,129 @@
+.sidebar{
+    position: fixed;
+    width: 380px;
+}
+
+.sidebar .friends{
+    padding: 20px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.heading-1{
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.heading-2{
+    font-size: 30px;
+    padding-left: 5px;
+}
+.friends-item-container {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+}
+
+.friends-item-container .img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 11px;
+}
+
+.friends-item-container .img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.friends-item-container .span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex: 60%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.friends-item-container .span span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.sidebar .friend-request{
+    padding: 20px;
+    background-color: white;
+    /* width: 100%; */
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.request-item-container {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+}
+
+.request-item-container .img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.request-item-container .img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.request-item-container .span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.request-item-container .span span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.request-item-container .button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.request-item-container .button button{
+    border: none;
+    font-size: 17px;
+    color: rgb(17, 255, 0);
+    background-color: white;
+    cursor: pointer;
+}
