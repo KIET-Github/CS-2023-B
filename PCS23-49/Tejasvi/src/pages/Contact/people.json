@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Sneha Sharma",
+        "image": "https://github.com/snehasharma1111.png",
+        "about": "MERN Stack developer",
+        "socials": [
+            {
+                "username": "@snehasharma1111",
+                "link": "https://www.linkedin.com/in/snehasharma1111",
+                "service": "linkedin"
+            },
+            {
+                "username": "@snehasharma1111",
+                "link": "https://www.github.com/snehasharma1111",
+                "service": "github"
+            },
+            {
+                "username": "snehasharma9205@gmail.com",
+                "link": "mailto:snehasharma9205@gmail.com",
+                "service": "mail"
+            }
+        ]
+    },
+    {
+        "name": "Tejasvi Chaudhary",
+        "image": "https://raw.githubusercontent.com/sneha-sharma-kiet/planner/master/src/images/t.jpeg",
+        "about": "MERN stack developer",
+        "socials": [
+            {
+                "username": "@tejasvi24",
+                "link": "https://www.linkedin.com/in/tejasvi24",
+                "service": "linkedin"
+            },
+            {
+                "username": "@TejasviChaudhary",
+                "link": "https://www.github.com/TejasviChaudhary",
+                "service": "github"
+            },
+            {
+                "username": "tejasvi.1923co1022@kiet.edu",
+                "link": "mailto:tejasvi.1923co1022@kiet.edu",
+                "service": "mail"
+            }
+        ]
+    }
+]
