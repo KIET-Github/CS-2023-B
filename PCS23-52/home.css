@@ -1,0 +1,54 @@
+.home-container{
+    display: flex;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.main-content{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.sidebar-container{
+    flex:25%;
+    /* background-color: red; */
+}
+.posts-container{
+    flex: 50%;
+    /* background-color: blue; */
+}
+.posts-heading{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+.posts-heading .first{
+    flex: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.posts-heading .first div{
+    font-size: 40px;
+}      
+
+.posts-heading .second{
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+}
+.posts-heading .second button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.rightbar-container{
+    flex: 25%;
+    /* background-color: yellow; */
+}

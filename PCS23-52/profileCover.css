@@ -1,0 +1,16 @@
+.profile-cover{
+    height: 100%;
+    width: 100%;
+}
+
+.profile-cover div{
+    height: 100%;
+    width: 100%;
+}
+
+.profile-cover div img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+

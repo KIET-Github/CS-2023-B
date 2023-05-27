@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#f7f7f7"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_marginTop="180dp"
+        android:text="Full Name"
+        android:textAlignment="center"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/fullNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:text="Niraj Sir"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#c5c5c5"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_marginTop="70dp"
+        android:text="Age"
+        android:textAlignment="center"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/ageEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:text="28"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#c5c5c5"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_marginTop="70dp"
+        android:text="Phone Number"
+        android:textAlignment="center"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/phoneEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:text="+91 111 111 1111"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#c5c5c5"
+        />
+
+    <Button
+        android:id="@+id/LogoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Logout"
+        android:padding="5dp"
+        />
+
+</LinearLayout>
+

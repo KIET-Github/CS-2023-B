@@ -1,0 +1,48 @@
+.single-search-item{
+    display: flex;
+    padding: 15px;
+}
+
+.single-search-item .img{
+    flex: 25%;
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.single-search-item .img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.single-search-item .username{
+    flex: 55%;
+    display: flex;
+    align-items: center;
+}
+
+.single-search-item .username span{
+    font-size: 20px;
+    color: black;
+}
+
+.single-search-item .username span span{
+    font-size: 15px;
+    color: black;
+}
+
+.single-search-item .button{
+    flex: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-search-item .button button{
+    border: none;
+    font-size: 17px;
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
